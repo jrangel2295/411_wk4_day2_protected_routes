@@ -22,6 +22,7 @@ class App extends Component {
     e.preventDefault()
     // set cookie here
     // set loggedIn = true and max-age = 60*1000 (one minute)
+    document.cookie = "loggedIn=true; mac-age=60*10000"
 
     window.location.replace("/")
   }
